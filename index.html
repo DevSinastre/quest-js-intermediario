@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>Quest HTML, CSS e JS intermediário</title>
+</head>
+<body>
+    <main class="main">
+        <div class="fundo">
+            <section class="informacao">
+                <h1>FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </section>
+            <section class="formulario">
+                <form id="enviar-formulario">
+                    <input name="nome" class="verificar" id="nome" type="text" placeholder="Nome completo *">
+                    <span>campo obrigatório</span>
+
+                    <input name="email" class="verificar" id="email" type="text" placeholder="Email *">
+                    <span>campo obrigatório</span>
+
+                    <!-- <input name="email" class="verificar" id="email" type="email" placeholder="Email *">
+                    <span>campo obrigatório</span> 
+                    
+                    teste entrada telefone com restrições no html
+                         <input name="telefone" class="verificar" id="telefone" type="tel" size="11" pattern="[0-9]{11,10}" placeholder="Telefone *">
+                    <span>campo obrigatório</span> -->
+
+                    <input name="telefone" class="verificar" id="telefone" type="tel"  placeholder="Telefone *">
+                    <span>campo obrigatório</span>
+
+                    <!-- <input  type="text" placeholder="Mensagem *"> -->
+                    <textarea id="txtarea" name="mensagem" class="mensagem verificar" id="mensagem" placeholder="Mensagem *"></textarea>
+                    <span>campo obrigatório</span>
+
+                    <p>*campos obrigatórios</p>
+                    <button type="submit">Enviar</button>
+                </form> 
+            </section>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
